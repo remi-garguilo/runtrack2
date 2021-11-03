@@ -15,5 +15,5 @@ echo "$val";
 $MyBool=True;
 echo "$MyBool";
 $MyBool=False;
-echo "$MyBool";
+echo $MyBool;
 ?>
