@@ -3,7 +3,7 @@ $dic= [
     "voyelles" => ['a', 'e', 'i', 'o', 'u', 'y','O'],
     "consonnes" => ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'],
     ];
-$string="papa et maman";
+$string="On n est pas le meilleur quand on le croit mais quand on le sait";
 $cons=0;
 $voy=0;
 $i=0;
@@ -15,13 +15,14 @@ while (isset($string[$i]) == TRUE) {
             }
         $j++;
     }
+    $j=0;
     while(isset($dic["consonnes"][$j]) == TRUE) {
         if($string[$i] == $dic["consonnes"][$j]) {
             $cons++;
             }
         $j++;
         }
-$i++;
+    $i++;
 }
 ?>
 
