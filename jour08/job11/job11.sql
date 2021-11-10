@@ -1,0 +1,1 @@
+SELECT SUM(etage) FROM `etage`
