@@ -50,10 +50,10 @@ CREATE TABLE `salles` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `étudiants`
+-- Structure de la table `etudiants`
 --
 
-CREATE TABLE `étudiants` (
+CREATE TABLE `etudiants` (
   `id` int(11) NOT NULL,
   `prenom` varchar(255) NOT NULL,
   `nom` varchar(255) NOT NULL,
@@ -103,7 +103,7 @@ ALTER TABLE `salles`
 --
 -- AUTO_INCREMENT pour la table `étudiants`
 --
-ALTER TABLE `étudiants`
+ALTER TABLE `etudiants`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 

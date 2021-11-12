@@ -1,1 +1,1 @@
-SELECT * FROM `étudiants` WHERE DATEDIFF(CURRENT_DATE,naissance)>=365*18
+SELECT * FROM `etudiants` WHERE DATEDIFF(CURRENT_DATE,naissance)>=365*18

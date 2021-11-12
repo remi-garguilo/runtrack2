@@ -73,7 +73,7 @@ INSERT INTO `salles` (`id`, `nom`, `id_etage`, `capacite`) VALUES
 -- Structure de la table `étudiants`
 --
 
-CREATE TABLE `étudiants` (
+CREATE TABLE `etudiants` (
   `id` int(11) NOT NULL,
   `prenom` varchar(255) NOT NULL,
   `nom` varchar(255) NOT NULL,
@@ -86,7 +86,7 @@ CREATE TABLE `étudiants` (
 -- Déchargement des données de la table `étudiants`
 --
 
-INSERT INTO `étudiants` (`id`, `prenom`, `nom`, `naissance`, `sexe`, `email`) VALUES
+INSERT INTO `etudiants` (`id`, `prenom`, `nom`, `naissance`, `sexe`, `email`) VALUES
 (1, 'Pascal', 'Assens', '1999-12-31', 'Homme', 'pascal@laplateforme.io'),
 (3, 'Jessica', 'Soriano', '1995-09-08', 'Femme', 'jessica@laplateforme.io'),
 (4, 'Roxan', 'Roumégas', '2016-09-08', 'Homme', 'roxan@laplateforme.io'),
@@ -114,7 +114,7 @@ ALTER TABLE `salles`
 --
 -- Index pour la table `étudiants`
 --
-ALTER TABLE `étudiants`
+ALTER TABLE `etudiants`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -136,7 +136,7 @@ ALTER TABLE `salles`
 --
 -- AUTO_INCREMENT pour la table `étudiants`
 --
-ALTER TABLE `étudiants`
+ALTER TABLE `etudiants`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
