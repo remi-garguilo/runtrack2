@@ -1,0 +1,11 @@
+html {text-align: center}
+body { background-color: blue;}
+@font-face {
+    font-family: "style"; 	src: url('../font/rio_grande/RioGrande.ttf');
+}
+
+h1 {
+    font-size: 100px;
+    font-family: style;
+    text-align: center;
+}

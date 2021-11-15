@@ -1,0 +1,11 @@
+html {text-align: center}
+body { background-color: red;}
+
+@font-face {
+    font-family: "style3"; 	src: url('../font/Satan Team.ttf');
+}
+h1 {
+    font-size: 100px;
+    font-family: style3;
+    text-align: center;
+}

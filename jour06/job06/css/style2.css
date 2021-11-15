@@ -1,0 +1,10 @@
+html {text-align: center}
+@font-face {
+    font-family: "style2"; 	src: url('../font/avocado_creamy/avocado-Creamy.ttf');
+}
+h1 {
+    font-size: 100px;
+    font-family: style2;
+    text-align: center;
+}
+body { background-color: darkslategray;}
